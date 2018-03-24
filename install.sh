@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ "$#" -ne 3 ]; then
+if [ "$#" -ne 2 ]; then
   echo "usage: $0 [hdd image] [install image(iso)]"
   exit -1
 fi
